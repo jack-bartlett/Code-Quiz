@@ -1,0 +1,15 @@
+.header {
+    text-align: center;
+    font-weight: bold;
+}
+
+.questions {
+    text-align: center;
+}
+.container {
+    text-align: center;
+}
+
+.hide {
+    display: none;
+}
