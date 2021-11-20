@@ -14,10 +14,17 @@
 var timerEl = document.getElementById("count");
 var startButton = document.getElementById("startbutton");
 var startQuizInfo = document.querySelector(".startquizinfo");
+var quizQuestions = document.querySelector(".quizquestions");
+var quizResults = document.querySelector(".quizresults");
+quizQuestions.hidden = true;
+quizResults.hidden = true;
+
 
 function startQuiz() {
 startQuizInfo.setAttribute("class", "hide");
 startButton.setAttribute("class", "hide");
+quizQuestions.setAttribute("class", "show");
+quizQuestions.hidden = false;
 timer ();
 };
 
